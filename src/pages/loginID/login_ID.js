@@ -13,7 +13,7 @@ import { authWithPassword } from '@/api/getRecords';
 const loginButton = getNode('.login__button');
 const loginUserID = getNode('#userEmail');
 const loginUserPassword = getNode('#userPassword');
-const idMessageError = getNode('.email__error__message');
+const idMessageError = getNode('.id__error__message');
 const pwMessageError = getNode('.pw__error__message');
 const autoLoginCheck = getNode('.check');
 const passwordHideIcon = getNode('.hide__icon');
